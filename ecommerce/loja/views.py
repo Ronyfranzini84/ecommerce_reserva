@@ -16,7 +16,7 @@ def checkout(request):
     return render(request, 'checkout.html')
 
 def minha_conta(request):
-    return render(request, 'usuario/minha_conta.html')
+    return render(request, 'usuario/minhaconta.html')
 
 def login(request):
     return render(request, 'usuario/login.html')
